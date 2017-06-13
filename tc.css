@@ -1,0 +1,139 @@
+html{
+  font-size:13px;
+}
+
+body{
+  margin-top: 60px;
+  margin-bottom: 140px;
+  background: rgb(65,145,0);
+  color: white;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;  
+}
+
+/*This is for sizing the pads of the buttons*/
+.sb{
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top:2px;
+  padding-bottom:2px;
+  width: auto;
+}
+
+/*This is for formatting the size of the game
+ board's buttons.'*/
+.bn{
+  width: 90px;
+  height:90px;
+  padding-top:0px;
+  padding-bottom:0px;
+  margin-bottom: 5px;
+  background: rgb(21,38,136);
+  border-color: rgb(21,38,136);
+}
+
+/*This is for sizing the computer's
+  button.
+*/
+.cbn{
+  margin-left:20px;
+}
+
+/* This is for formatting the character's button
+   size.
+*/
+.chb{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  height: auto;
+  width:60px;
+}
+
+/*This is for formatting the font size of
+  the characters.
+*/
+.ct{
+ font-size: 3.2rem;
+}
+
+/* This is for formatting the game board's font size
+   of each square.
+*/
+.char{
+  font-size:4.2rem;
+}
+
+/* This is for formatting the size of the 3 bottom
+   buttons on the game board.
+*/
+.obn{
+  width: 90px;
+  height:90px;  
+  padding-top:0px;
+  padding-bottom:0px;
+  background: rgb(21,38,136);
+  border-color: rgb(21,38,136);
+}
+
+/*This is for formatting the margin size of 
+  the text below the game board.
+*/
+.turnt{
+ margin-bottom: 20px;
+}
+
+/* This is for formatting the margin bottom size
+   of the text heading.
+*/
+#h{
+  margin-bottom: 30px;
+}
+
+/* This is for formatting the size of the game
+   board.
+*/
+#board{
+  width:278px;
+  height: auto;
+  background:rgb(220,127,209);
+  border-radius:5px;
+  margin: 0 auto;
+  /*                  x   y    blur size color*/
+  -webkit-box-shadow: 0px 15px 30px 5px  black,
+          inset -1px -7px 10px 0.25px rgb(40,40,40) ;
+  /*          x   y    blur size color*/
+  box-shadow: 0px 15px 30px 5px  black,
+          inset -1px -7px 10px 0.25px rgb(40,40,40) ;
+  margin-bottom: 60px;
+}
+
+/* This is for formatting the pad and margin
+   size of the computer button.
+*/
+#cb{
+  margin-right: 40px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top:2px;
+  padding-bottom:2px;
+}
+
+/* This is for formatting the pad sizes of
+   the player button.
+*/
+#pb{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+/* This is for sizing the left margin of the
+   'X' button.
+*/
+#xc{
+  margin-left: 40px;
+}
+

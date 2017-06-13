@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="This searches Wikipedia articles while using Wikipedia's API."/>
+    <meta name="keywords" content="wikipedia, article, wikipedia article, search"/>
+    <meta name="robots" content="index/follow"/>
+    <meta name="author" content="Jonalbert Encina"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>   
+    <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>   
+    <script type="text/javascript" src="tc.js"></script>     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>    
+    <link rel="stylesheet" href="tc.css"/>
+ 
+    <title>Tic Tac Toe</title>
+    
+  </head>
+  <body>
+    <!--Create a Bootstrap container.-->
+    <div class="container">
+     
+      <h1 class="text-center" id="h">
+        <b> Tic - Tac - Toe</b>
+      </h1>
+      <!--This is for the interface of the game board.-->
+      <div class="text-center"id="board">
+        <a class="btn btn-primary bn" id="0">
+
+        </a>
+        <a class="btn btn-primary bn" id="1">
+     
+        </a>
+        <a class="btn btn-primary bn" id="2">
+     
+        </a> <br/>   
+        <a class="btn btn-primary bn" id="3">
+     
+        </a>    
+        <a class="btn btn-primary bn" id="4">
+     
+        </a>    
+        <a class="btn btn-primary bn" id="5">
+     
+        </a><br/>
+        <a class="btn btn-primary obn" id="6">
+     
+        </a>    
+        <a class="btn btn-primary obn" id="7">
+     
+        </a>    
+        <a class="btn btn-primary obn" id="8">
+     
+        </a>
+
+      </div> <!--end of div board-->
+      
+      <!--These text are for displaying the results
+          of the game board.-->
+      <h3 class="text-center turnt" id="dr">
+        The result is a draw.
+      </h3>
+      
+      <h3 class="text-center turnt" id="shmw">
+        The 2nd player wins.
+      </h3>
+      
+      <h3 class="text-center turnt" id="fhmw">
+        The 1st player wins.
+      </h3>
+      
+      <h3 class="text-center turnt" id="cpw">
+        The computer wins.
+      </h3> 
+      
+      <h3 class="text-center turnt" id="hmw">
+        The human player wins.
+      </h3>
+      
+      <h3 class="text-center turnt" id="shmt">
+        It is the 2nd player's turn.
+      </h3>
+      
+      <h3 class="text-center turnt" id="fhmt">
+       It is the 1st player's turn
+      </h3>
+      
+      <h3 class="text-center turnt" id="hmt">
+       It is the human player's turn.
+      </h3>
+      
+      <h3 class="text-center turnt"id="ft">
+        Which player goes first?
+      </h3>
+      
+      <h3 class="text-center turnt"id="hp">
+        Which character is the 1st player?
+      </h3>
+      
+      <h3 class="text-center turnt"id="cp">
+        Which character is the human player?
+      </h3>
+      
+      <h3 class="text-center turnt"id="hw">
+        Play with the computer or another player?
+      </h3>
+      
+      <!--These are for displaying the buttons for the
+          game board.-->
+      <div class="text-center">
+        <a class="btn btn-primary" id="cb">
+          <h3> 
+          Computer
+          </h3>
+        </a>
+        <a class="btn btn-primary" id="pb">
+          <h3>
+           Player
+          </h3>
+        </a>
+        <a class="btn btn-primary chb" id="oc">
+          <h2 class="ct">
+            <b>
+            O
+            </b>
+          </h2>
+        </a>
+        <a class="btn btn-primary chb" id="xc">
+          <h2 class="ct">
+            <b>
+            X
+            </b>
+          </h2>
+        </a>  
+        <a class="btn btn-primary sb" id="hm">
+          <h3>
+           Human
+          </h3>
+        </a>  
+        <a class="btn btn-primary cbn sb" id="cpu">
+          <h3>
+           Computer
+          </h3>
+        </a> 
+        <a class="btn btn-primary sb" id="fhm">
+          <h4>
+           1st Player
+          </h4>
+        </a>  
+        <a class="btn btn-primary cbn sb" id="shm">
+          <h4>
+           2nd Player
+          </h4>
+        </a> 
+        <a class="btn btn-primary sb" id="rst">
+          <h3>
+            Reset
+          </h3>
+        </a>
+      </div> <!--end of text-center-->
+      
+    </div>
+     <script type="text/javascript" src="tc.js"></script> 
+     <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>    
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>   
+  </body>
+</html>
